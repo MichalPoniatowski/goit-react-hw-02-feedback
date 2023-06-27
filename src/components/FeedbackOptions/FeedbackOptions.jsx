@@ -2,8 +2,7 @@ import css from './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div className={css.buttonBox}>
-      <p>Test - FeedbackOptions is rendering</p>
+    <div className={css.button__wrapper}>
       {options.map((buttonName, index) => (
         <button
           className={css.button}
